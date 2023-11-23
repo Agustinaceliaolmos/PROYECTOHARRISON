@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Comunidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Listado de Comunidades</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Comunidad</th>
+                <th>Fecha de Última Conciliación</th>
+                <th>Pagos Actualizados</th>
+                <th>Facturas Actualizadas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Comunidad 1</td>
+                <td><input type="date" id="fecha1" name="fecha1"></td>
+                <td><input type="checkbox" id="pagos1" name="pagos1"></td>
+                <td><input type="checkbox" id="facturas1" name="facturas1"></td>
+            </tr>
+            <tr>
+                <td>Comunidad 2</td>
+                <td><input type="date" id="fecha2" name="fecha2"></td>
+                <td><input type="checkbox" id="pagos2" name="pagos2"></td>
+                <td><input type="checkbox" id="facturas2" name="facturas2"></td>
+            </tr>
+            <!-- Agrega más filas según sea necesario para las otras comunidades -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
